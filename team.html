@@ -31,18 +31,23 @@
             max-width: 15rem;
         }
         .my-card-image{
-            max-height: 15rem;
-            max-width: 100%;
+            /* max-height: 15rem;
+            max-width: 100%; */
+            object-fit: cover;
         }
         .my-card-body{
             /* max-height: 8rem; */
             height: auto;
-            overflow:scroll;
+            overflow:auto;
         }
         .my-card:hover{
             transition: 0.3s;
             /* transform: scale(1.1); */
         }
+        .my-flex{
+            display: flex;
+        }
+        /* ***** */
     </style>
 </head>
 
@@ -86,7 +91,7 @@
     <!--Navbar Ends-->
 
     <!--Carousel Wrapper-->
-    <div id="carousel-groupphotos" class="carousel slide carousel-fade mx-auto d-block col-sm-9 mh-100" data-interval="3000"
+    <div id="carousel-groupphotos" class="carousel slide carousel-fade mx-auto d-block col-md-8 mh-100" data-interval="3000"
         data-ride="carousel" style="overflow: hidden;">
         <!--Indicators-->
         <ol class="carousel-indicators">
@@ -127,14 +132,14 @@
     </div>
     <!--/.Carousel Wrapper-->
 
-    <nav class="nav grey lighten-4 py-4">
+    <nav class="nav grey lighten-4 py-4 d-flex flex-row justify-content-around">
         <h1 class="h1-responsive ml-3">Core Members</h1>
     </nav>
 
     <!-- ADD YOUR CONTENT HERE-->
     <!--Card-->
     <div class="container">
-        <div class="d-flex flex-row my-flex-container flex-wrap justify-content-around">
+        <div class="my-flex d-flex flex-row my-flex-container flex-wrap justify-content-around">
             <!-- Card-1 -->
             <div class="mx-5 my-3 info-card">
                 <div class="my-card">
@@ -162,7 +167,7 @@
             </div>
             <!-- EndOF Card-1 -->
             <!-- Card-1 -->
-            <div class="mx-5 my-3 info-card">
+            <div class="mx-5 my-3 info-card height-issue-solver">
                 <div class="my-card">
                     <div class="front border">
                         <img src="img/team/SaifKotwal.jpg" class="card-img-top my-card-image" alt="...">
@@ -186,8 +191,9 @@
                 </div>
             </div>
             <!-- EndOF Card-1 -->
+
             <!-- Card-1 -->
-            <div class="mx-5 my-3 info-card">
+            <div class="mx-5 my-3 info-card height-issue-solver">
                 <div class="my-card">
                     <div class="front border">
                         <img src="img/team/sample.jpg" class="card-img-top my-card-image" alt="...">
@@ -268,7 +274,7 @@
     <!--/.Card-->
 
 
-    <nav class="nav grey lighten-4 py-4">
+    <nav class="nav grey lighten-4 py-4 d-flex flex-row justify-content-around">
         <h1 class="h1-responsive ml-3">Team Members</h1>
     </nav>
     <div class="container">
