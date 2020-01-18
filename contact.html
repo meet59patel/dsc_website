@@ -11,13 +11,27 @@
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
     />
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <!-- Material Design Bootstrap -->
-    <link href="css/mdb.min.css" rel="stylesheet" />
-    <!-- Your custom styles (optional) -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Footer style -->
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+    </style>
   </head>
 
   <body>
@@ -26,7 +40,12 @@
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark indigo">
       <a class="navbar-brand" href="index.html">
-        <img src="img/dsc_logo.png" class="ml-4 mb-1" alt="dsc_logo" height="30" />
+        <img
+          src="assets/images/dsc_logo.png"
+          class="ml-4 mb-1"
+          alt="dsc_logo"
+          height="30"
+        />
       </a>
       <!--Collapse Button-->
       <button
@@ -46,21 +65,23 @@
       <div class="collapse navbar-collapse" id="itemList">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="./index.html" class="nav-link">Home</a>
           </li>
 
           <li class="nav-item">
-            <a href="events.html" class="nav-link">Events</a>
+            <a href="./events.html" class="nav-link">Events</a>
           </li>
 
           <li class="nav-item">
-            <a href="team.html" class="nav-link">Team</a>
+            <a href="./team.html" class="nav-link">Team</a>
           </li>
         </ul>
 
-        <a href="contact.html"></a><button type="button" class="btn btn-info   btn-sm">
-        Contact Us
-        </button></a>
+        <a href="#">
+          <button type="button" class="btn btn-info   btn-sm">
+            Contact Us
+          </button>
+        </a>
       </div>
       <!--Collapsible Content Ends-->
     </nav>
@@ -80,37 +101,93 @@
       </div>
       <div class="col-lg-6 d-none d-lg-block">
         <div class="view mr-2 wow fadeIn slow">
-            <img src="img/contact/contact2-min.png" class="img-fluid" alt="contact image" />
-            <div class="mask rgba-black-strong">
-                <div class="row h-100">
-                    <div class="col-sm-12 my-auto text-white text-center">
-                        <h1 class="diplay-1 wow fadeInDown">
-                            We Are Here To Connect!
-                        </h1>
-                        <hr class="hr-light mx-4">
-                        <p class="lead wow fadeInUp">
-                            Have Any doubts regarding recent sessions, Looking for a mentor, looking for a roadmap or just want to chat with us?
-                        </h3>
-                    </div>
-                </div>
+          <img
+            src="assets/images/contact/contact2-min.png"
+            class="img-fluid"
+            alt="contact image"
+          />
+          <div class="mask rgba-black-strong">
+            <div class="row h-100">
+              <div class="col-sm-12 my-auto text-white text-center">
+                <h1 class="diplay-1 wow fadeInDown">
+                  We Are Here To Connect!
+                </h1>
+                <hr class="hr-light mx-4" />
+                <p class="lead wow fadeInUp">
+                  Have Any doubts regarding recent sessions, Looking for a
+                  mentor, looking for a roadmap or just want to chat with us?
+                </p>
+              </div>
             </div>
+          </div>
         </div>
       </div>
     </div>
 
     <!--END YOUR CONTENT HERE-->
 
+    <!-- Footer -->
+
+    <footer class="footer-wrapper">
+      <p class="font-weight-bold">
+        Developed with 💙 by the DSC Team
+      </p>
+      <div class=" footer-icons container text-center">
+        <a
+          href="https://github.com/ossdaiict"
+          target="_blank"
+          rel="noopener"
+          aria-label="GitHub profile link"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://twitter.com/dscdaiict"
+          target="_blank"
+          rel="noopener"
+          aria-label="Twitter profile link"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://medium.com/code-dementia"
+          target="_blank"
+          rel="noopener"
+          aria-label="Medium profile link"
+        >
+          <i class="fab fa-medium"></i>
+        </a>
+      </div>
+      <p class="copyright-text">
+        © 2019 Developer Student Club, DA-IICT
+      </p>
+    </footer>
+
+    <!-- Footer End -->
+
     <!--Project Ends Here-->
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
     <!-- Bootstrap tooltips -->
-    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
     <!-- Bootstrap core JavaScript -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"
+    ></script>
     <!-- MDB core JavaScript -->
-    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/js/mdb.min.js"
+    ></script>
     <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>

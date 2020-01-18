@@ -1,0 +1,28 @@
+{
+  "name": "dsc-website",
+  "description": "Website for Developer Student Club DA-IICT",
+  "version": "1.0.0",
+  "license": "GPL-3.0-or-later",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ossdaiict/dsc-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ossdaiict/dsc-website/issues"
+  },
+  "scripts": {
+    "dev": "live-server"
+  },
+  "devDependencies": {
+    "husky": "^3.1.0",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "live-server": "^1.2.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
